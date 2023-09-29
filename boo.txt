@@ -19,3 +19,6 @@ origin: the root server that trackers your repository (a repository may be in mu
 
 
 branch:
+
+
+version control software: a code management system that allows us to keep track of changes made to large projects, which also includes backups and blame systems.
