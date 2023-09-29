@@ -4,4 +4,4 @@ repository: folder(your project) where we store all our code/project files.
 clone: to make a copy of the repository onto your system
 
 
-commit: 
+commit: to finalize changes done to the repository and record them into the tracking system (git)
