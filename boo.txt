@@ -5,3 +5,5 @@ clone: to make a copy of the repository onto your system
 
 
 commit: to finalize changes done to the repository and record them into the tracking system (git)
+
+push: like uploading. We upload/push commits to the server(github).
