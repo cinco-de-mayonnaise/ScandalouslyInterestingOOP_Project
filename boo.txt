@@ -15,3 +15,7 @@ pull: like downloading. We download/pull commits from the server.
 conflict: when two people worked on the same file. This needs to be resolved with a Merge commit.
 
 
+origin: the root server that trackers your repository (a repository may be in multiple servers)
+
+
+branch:
