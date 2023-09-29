@@ -9,7 +9,7 @@ commit: to finalize changes done to the repository and record them into the trac
 push: like uploading. We upload/push commits to the server(github).
 
 
-pull: like downloading. We download/pull commits from the server. (WARNING: Keep in mind that when you pull, you may lose your work if it has not already been committed)
+pull: like downloading. We download/pull commits from the server.
 
 
 conflict: when two people worked on the same file. This needs to be resolved with a Merge commit.
@@ -21,5 +21,4 @@ origin: the root server that trackers your repository (a repository may be in mu
 branch:
 
 
-
-abdullah likes mars bars
+version control software: a code management system that allows us to keep track of changes made to large projects, which also includes backups and blame systems.
