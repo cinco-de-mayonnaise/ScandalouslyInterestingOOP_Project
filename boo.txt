@@ -1,3 +1,6 @@
+version control software: a code management system that allows us to keep track of changes made to large projects, which also includes backups and blame systems.
+
+
 repository: folder(your project) where we store all our code/project files.
 
 
@@ -5,6 +8,7 @@ clone: to make a copy of the repository onto your system
 
 
 commit: to finalize changes done to the repository and record them into the tracking system (git)
+
 
 push: like uploading. We upload/push commits to the server(github).
 
@@ -18,10 +22,13 @@ conflict: when two people worked on the same file. This needs to be resolved wit
 origin: the root server that trackers your repository (a repository may be in multiple servers)
 
 
-branch:
+branch: a copy of the entire repository, usually meant to be changed by some collaborators
 
 
-version control software: a code management system that allows us to keep track of changes made to large projects, which also includes backups and blame systems.
+main/master: a special branch, usually NOT meant to be committed to by collaborators. It should contain finished work, and be compilable (because its meant for everyone, not just programmers of the project)
 
 
-abdullah likes mars bars
+pull request: a request to merge a branch with another branch(usually main). Only compilable/finished work on your branch should be merged with main.
+
+
+fork:
