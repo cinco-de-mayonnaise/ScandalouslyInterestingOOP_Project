@@ -22,7 +22,10 @@ conflict: when two people worked on the same file. This needs to be resolved wit
 origin: the root server that trackers your repository (a repository may be in multiple servers)
 
 
-branch: a copy of the entire repository, usually meant to be changed by some collaborators
+collaborators: are people who have permission to work on a repository.
+
+
+branch: a copy of the entire repository, usually meant to be changed by some collaborators.
 
 
 main/master: a special branch, usually NOT meant to be committed to by collaborators. It should contain finished work, and be compilable (because its meant for everyone, not just programmers of the project)
@@ -31,4 +34,4 @@ main/master: a special branch, usually NOT meant to be committed to by collabora
 pull request: a request to merge a branch with another branch(usually main). Only compilable/finished work on your branch should be merged with main.
 
 
-fork:
+fork: a copy of the entire repository, but with all branches(optional). Anyone can fork a repository.
