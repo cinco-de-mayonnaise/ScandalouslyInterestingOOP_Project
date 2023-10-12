@@ -9,6 +9,7 @@ import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 
 /**
@@ -18,17 +19,24 @@ import javafx.scene.control.Label;
 public class mainFXMLController implements Initializable {
     
     @FXML
-    private Label label;
-    
+    private Button Incrementbutton;
     @FXML
-    private void handleButtonAction(ActionEvent event) {
-        System.out.println("You clicked me!");
-        label.setText("Hello World!");
-    }
+    private Label TF_num;
+    
+    int count = 0;
     
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
+        
+        TF_num.setText(Integer.toString(count));
     }    
+
+    @FXML
+    private void click_Increment(ActionEvent event) 
+    {
+        count++;
+        TF_num.setText(Integer.toString(count));
+    }
     
 }
